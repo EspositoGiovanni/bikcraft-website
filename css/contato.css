@@ -141,7 +141,7 @@ img {
   background-size: cover;
 }
 
-/* Orçamento */
+/* Contato */
 
 .contato {
   padding: 40px 0;
@@ -211,33 +211,19 @@ img {
   padding-top: 5px;
 }
 
-.email_span {
-  margin-bottom: 40px;
+.contato_dados span:nth-of-type(even) {
+  margin-bottom: 30px;
+}
+.contato_dados ul {
+  margin-top: 10px;
 }
 
 .contato_dados ul li {
   font-family: "Georgia", "Times New Roman", Times, serif;
   font-size: 14px;
-  padding: 10px 15px;
 }
 
-.orcamento_dados p {
-  margin: 10px 0 10px 0;
-}
-
-.orcamento_dados ul li:nth-child(odd) {
-  background: #1d1d1d;
-}
-
-.footer_lista li p {
-  max-width: 400px;
-  color: #fff;
-  font-size: 14px;
-  line-height: 20px;
-  padding-top: 10px;
-}
-
-.footer_lista a img {
+.contato_dados a img {
   display: inline-block;
   margin-right: 20px;
   padding: 5px;
@@ -246,8 +232,14 @@ img {
   margin-top: 10px;
 }
 
-.footer_lista a img:hover {
+.contato_dados a img:hover {
   background-color: tomato;
+}
+
+/* Mapa */
+
+.mapa {
+  padding-bottom: 40px;
 }
 
 /* Quebra */
